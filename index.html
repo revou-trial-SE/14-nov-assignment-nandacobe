@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css" />
+
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        overflow-x: hidden;
+      }
+
+      .carousel-item {
+        text-align: center;
+      }
+
+      .profile-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    </style>
+
+    <title>My Portofolio</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="row justify-content-center">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+            <a class="navbar-brand" href="#">Nanda WebDev</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Skill</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portofolio</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Gambar profile -->
+    <div class="row">
+      <div class="col">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide mt-5"
+          data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="asset/img/fotoprofile.jpg"
+                class="d-block mx-auto profile-image"
+                alt="Profile Image" />
+              <h5 class="mt-3 fw-bold">Nanda Hermawansyah</h5>
+              <p>Web Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End gambar profile -->
+
+    <div class="container">
+      <!-- About Me -->
+      <div class="row mb-3 mt-5 justify-content-center">
+        <div class="col-md-8">
+          <h4 class="text-center">About Me</h4>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-body text-center">
+              <p class="text-center">
+                Halo, saya Nanda Hermawansyah, seorang web developer dengan
+                semangat untuk menciptakan pengalaman online yang menarik dan
+                fungsional. Dengan latar belakang dalam pengembangan web, saya
+                telah berhasil menyusun berbagai proyek yang mencakup desain
+                responsif dan kode berkualitas tinggi. Saya berfokus pada
+                pengembangan solusi kreatif untuk memenuhi kebutuhan klien.
+                Selain itu, saya senang terlibat dalam kolaborasi tim untuk
+                mencapai tujuan bersama. Lihatlah portofolio saya untuk lebih
+                jauh mengenal pekerjaan saya!
+              </p>
+              <button class="btn btn-primary mt-2">Contact Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Me -->
+
+      <!-- Skill -->
+      <div class="row mt-5 mb-3 justify-content-center">
+        <div class="col-md-8">
+          <h4 class="text-center">My Skill</h4>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-3 text-center">
+              <div class="card p-3">
+                <h5 class="card-title">CSS</h5>
+                <p class="card-text bg-primary rounded-2 text-light">
+                  Persentase: 20%
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 text-center">
+              <div class="card p-3">
+                <h5 class="card-title">HTML</h5>
+
+                <p class="card-text bg-danger rounded-2 text-light">
+                  Persentase: 20%
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 text-center">
+              <div class="card p-3">
+                <h5 class="card-title">JavaScript</h5>
+                <p class="card-text rounded-2 bg-warning">Persentase: 30%</p>
+              </div>
+            </div>
+            <div class="col-md-3 text-center">
+              <div class="card p-3">
+                <h5 class="card-title">PHP</h5>
+                <p class="card-text rounded-2 bg-primary text-light">
+                  Persentase: 30%
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Skill -->
+
+      <!-- Portofolio -->
+      <div class="row mt-5 mb-3 justify-content-center">
+        <div class="col-md-8">
+          <h4 class="text-center">Portofolio</h4>
+        </div>
+      </div>
+      <div class="row mb-5 justify-content-center">
+        <div class="col-md-8">
+          <div
+            style="
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              padding: 2px;
+            ">
+            <img src="asset/img/gambar1.jpg" width="200px" alt="" />
+            <img src="asset/img/gambar1.jpg" width="200px" alt="" />
+            <img src="asset/img/gambar1.jpg" width="200px" alt="" />
+            <img src="asset/img/gambar1.jpg" width="200px" alt="" />
+            <img src="asset/img/gambar1.jpg" width="200px" alt="" />
+            <img src="asset/img/gambar1.jpg" width="200px" alt="" />
+            <img src="asset/img/gambar1.jpg" width="200px" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- End Portofolio -->
+    </div>
+    <script src="asset/js/bootstrap.min.js"></script>
+  </body>
+</html>
